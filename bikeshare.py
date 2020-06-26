@@ -309,7 +309,7 @@ def raw_data(df, mark_place):
             mark_place += 5
 
             if choice("Do you want to keep printing raw data?"
-                      "\n\n[y]Yes\n[n]No\n\n>") == 'y':
+                      "\n\n[y]Yes\n[n]No\n\n>") == "y":
                 continue
             else:
                 break
